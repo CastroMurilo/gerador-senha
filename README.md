@@ -6,5 +6,11 @@ Este repositório contém um programa em Python que implementa um gerador de sen
 
 Você pode executar o gerador de senhas executando o seguinte comando no seu terminal:
 
+## Log de alterações:
+
+- Agora o usuário pode copiar a senha gerada pelo programa.
+- Adicionado o arquivo requirements.txt
+
+
 ```bash
 python app.py

@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+
 import PySimpleGUI as sg
 import random
 import string
@@ -28,7 +30,7 @@ layout = [
     [sg.Text("Tamanho da Senha:"), sg.InputText(key="-TAMANHO-", size=(5, 1))],
     [sg.Checkbox("Maiúsculas", key="-MAIUSCULAS-"), sg.Checkbox("Minúsculas", key="-MINUSCULAS-")],
     [sg.Checkbox("Números", key="-NUMEROS-"), sg.Checkbox("Especiais", key="-ESPECIAIS-")],
-    [sg.Text("Senha Gerada: "), sg.Text("", size=(15, 1), key="-SENHA-")],
+    [sg.Text("Senha Gerada: "), sg.Input("", size=(15, 1), key="-SENHA-", readonly=True)],
     [sg.Button("Gerar Senha"), sg.Button("Sair")]
 ]
 
